@@ -1,9 +1,11 @@
 import React from 'react';
+import TrackingInterface from '../components/TrackingInterface';
 
 function Home() {
   return (
     <div className="home-page">
-      <h1>Welcome to the Home Page</h1>
+      <h1>Home Page</h1>
+      <TrackingInterface />
     </div>
   );
 }
