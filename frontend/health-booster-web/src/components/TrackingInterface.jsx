@@ -21,7 +21,7 @@ const TrackingInterface = () => {
           weight: 150
         },
         headers: {
-          'X-Api-Key': "Mx6uI8mZiUq/UX8ijHbg/g==kjVS1PNDuBj8indN"
+          'X-Api-Key': "your-key"
         }
       });
       
