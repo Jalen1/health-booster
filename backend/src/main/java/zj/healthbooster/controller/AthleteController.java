@@ -27,7 +27,7 @@ import zj.healthbooster.service.AthleteService;
  */
 @RestController
 @AllArgsConstructor
-@RequestMapping("/api/athletes") // maps the controller to this partciular endpoint.
+@RequestMapping("/api/athletes/") // maps the controller to this partciular endpoint.
 public class AthleteController {
 
     private final AthleteService athleteService;
