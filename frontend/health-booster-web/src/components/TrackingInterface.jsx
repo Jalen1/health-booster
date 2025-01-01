@@ -12,7 +12,6 @@ const TrackingInterface = () => {
     setLoading(true);
     setError('');
     setCalories(null);
-    console.log(import.meta.env.VITE_API_NINJA_KEY)
     try {
       const response = await axios.get('https://api.api-ninjas.com/v1/caloriesburned', {
         params: {
@@ -21,13 +20,17 @@ const TrackingInterface = () => {
           weight: 150
         },
         headers: {
-          'X-Api-Key': "your-key"
+          'X-Api-Key': "Mx6uI8mZiUq/UX8ijHbg/g==kjVS1PNDuBj8indN"
         }
       });
       
       if (response.data && response.data.length > 0) {
         setCalories(response.data[0].total_calories);
-        {/*store all the data here*/}
+        axios.post('http://localhost:8080/api/workouts/'), {
+          activity: activity,
+          duration: duration,
+          calories: response.data[0].total_calories
+        };
       } else {
         setError('No calorie data found for this activity');
       }
