@@ -5,30 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c3614b4-770b-4d94-bb72-543d038aeb05" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/zj/healthbooster/controller/AthleteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/zj/healthbooster/dto/AthleteDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/zj/healthbooster/entity/Athlete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/zj/healthbooster/repository/AthleteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/zj/healthbooster/service/AthleteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zj/healthbooster/HealthboosterApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/zj/healthbooster/HealthboosterApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/zj/healthbooster/HealthboosterApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/zj/healthbooster/HealthboosterApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/zj/healthbooster/HealthboosterApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zj/healthbooster/HealthboosterApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/zj/healthbooster/HealthboosterApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/zj/healthbooster/HealthboosterApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.HealthboosterApplication.executor": "Run",
     "JUnit.HealthboosterApplicationTests.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "athlete-obj",
     "jdk.selected.JAVA_MODULE": "23",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
