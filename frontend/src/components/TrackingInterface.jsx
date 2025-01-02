@@ -7,6 +7,7 @@ const TrackingInterface = () => {
   const [calories, setCalories] = useState(null);
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
@@ -20,7 +21,7 @@ const TrackingInterface = () => {
           weight: 150
         },
         headers: {
-          'X-Api-Key': "Mx6uI8mZiUq/UX8ijHbg/g==kjVS1PNDuBj8indN"
+          'X-Api-Key': import.meta.env.VITE_WORKOUT_API_KEY
         }
       });
       
